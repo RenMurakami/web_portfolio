@@ -1,0 +1,55 @@
+# Appliance Tracker - Full Stack Web Application
+
+A full stack web application for tracking appliances, built with **React**, **Node.js/Express**, and **MySQL**. Optional deployment can be done on **AWS** (S3, CloudFront, Elastic Beanstalk, or RDS).
+
+---
+
+## 🛠️ Technologies Used
+
+- **Frontend:** React, HTML, CSS  
+- **Backend:** Node.js, Express.js, RESTful API  
+- **Database:** MySQL  
+- **Deployment (Optional):** AWS S3, CloudFront, Elastic Beanstalk, RDS  
+- **Other Tools:** Axios / Fetch, Git
+
+---
+
+## 📌 Project Overview
+
+The Appliance Tracker allows users to:
+
+- Add new appliances with details (name, brand, price, status)  
+- View a list of all appliances  
+- Update or delete existing appliances  
+- Interact with a **REST API** to communicate between frontend and backend  
+- Optional: User authentication with JWT  
+- Optional: Hosted on AWS for production-ready deployment  
+
+This project demonstrates **full stack development**, **frontend-backend integration**, **database management**, and **cloud deployment**.
+
+---
+
+## ⚙️ Features
+
+### Frontend (React)
+
+- Dynamic forms for adding and updating appliances  
+- Interactive table/list view for all appliances  
+- Responsive design using CSS  
+
+
+### Backend (Node.js + Express)
+
+- RESTful API endpoints for CRUD operations:
+
+### Database (MySQL)
+
+### AWS Integration 
+
+Frontend Hosting: S3 + CloudFront or AWS Amplify
+
+Backend Hosting: Elastic Beanstalk, EC2, or Serverless Lambda + API Gateway
+
+Database: RDS MySQL for cloud-hosted persistent storage
+
+Authentication: Cognito (optional)
